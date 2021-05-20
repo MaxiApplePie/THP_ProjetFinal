@@ -22,7 +22,7 @@ Possibilité pour les utilisateurs de se contacter entre eux.
 
 ## 3. Concrètement et techniquement
 
-Site écrit en <code>Rails</code>, hebérgé sur Heroku. 
+Site écrit en <code>Rails</code>, hebérgé sur <code>Heroku</code>. 
 Base de données <code>PostgreSQL</code>. 
 Front-end en <code>HTML5</code> et <code>bootstrap</code>. 
 Un minimum de Javascript pour commencer. 
@@ -32,9 +32,9 @@ Il faudra pouvoir envoyer des mails automatiquement.
 
 <code>PostgreSQL</code>.
 Le design de la base est effectué en premier lors de la conception de l'application.
-On modélise sur dbdiagram.io/ puis on exporte le modèle en <code>PostgreSQL</code>
+On modélise sur dbdiagram.io/ puis on exporte le modèle en <code>PostgreSQL</code>.
 Ça nous permettra de comparer si on genere à l'identique
-Le modèle sera conçu en 3e forme normale .. Au minimum [<code>https://fr.wikipedia.org/wiki/Forme_normale_(bases_de_donn%C3%A9es_relationnelles)</code>]
+Le modèle sera conçu en 3e forme normale .. Au minimum [Lien](https://fr.wikipedia.org/wiki/Forme_normale_(bases_de_donn%C3%A9es_relationnelles))]
 
 ### 3.2. Front
 
@@ -62,34 +62,52 @@ Des moussaillons motivés, compétents et sympas .. Mais enfin si on est arrivé
 - <code>GitHub</code> : Il faudra avoir une connaissance minimale des fonctionnement des branches pour pouvoir travailler en parallèle.
 - <code>Rails</code> : À ce niveau on est à peu près tous pareils .. Écrire un code de qualité qui suit les standards. Quand quelqu'un me fait une remarque sur mon code et qu'il me propose mieux je suis preneur.
 - <code>POO</code> : Tout en POO ... pas de SQL dans le code. Validation des modèles dès qu'on fait une modification
-- <code>Bundler</code> : Ça serait pas mal de maîtriser bonne l'heure pour éviter les écarts de configuration entre nous.
+- <code>Bundler</code> : Ça serait pas mal de maîtriser Bundler pour éviter les écarts de configuration entre nous.
 - <code>Heroku</code> : Une bonne compréhension du dashboard et du push.
 - <code>Bootstrap</code> : Là aussi ce serait bien d'avoir une certaine maîtrise de <code>bootstrap</code> et d'aller un peu loin dans son utilisation.
-- <code>Trello</code> : À partir de maintenant on passe en mode projet donc chacun a objectif ... Même si on continue à bosser tous ensemble.
+- <code>Trello</code> : À partir de maintenant on passe en mode projet donc chacun a son objectif ... Même si on continue à bosser tous ensemble.
 - <code>Discord</code> : Vocal ouvert en continu.
 - <code>Rspec</code> : Et oui on va faire des tests ... Même sur la partie objet.
 
-Perso, ~~je peux boire trois pintes de bière sans trop de difficulté~~ 
+Perso, ~~je peux boire trois pintes de bière sans trop de difficulté~~ j'ai pas eu de difficultés particulières avec <code>Heroku</code> et <code>GitHub</code>. Le code que j'écris en ruby me fait penser à du caca donc je ne ferai pas office de référent technique. Par contre je connais très bien les bases de données et le design de DB. <code>Bootstrap</code> me plaît bien. Et je peux m'occuper des tests sous Rspec. 
 
-Balance ici tes compétences, puis tes besoins pour les 3-4 personnes restantes.
+- Un volontaire pour gerer le Trello.
+- Un volontaire pour garantir la qualité du code de l'équipe.
+- Un/deux volontaire(s) pour creuser <code>Bootstrap</code>.
+- Un volontaire pour nous créer des données cohérente avec <code>Faker</code>.
+- Il faudrait quelqu'un qui s'intéresse à <code>Bundler</code> mais là je crois que c'est difficile à trouver
+ **... Tout ça en mode détendu ... On ne va pas révolutionner internet.**
 
-## 4. La version minimaliste mais fonctionnelle qu'il faut avoir livré la première semaine
-Nous allons vous demander de livrer une version minimaliste mais fonctionnelle à la fin de la première semaine. Décris ce que vous voulez avoir fait à la fin de la première semaine. Pense minimaliste, fonctionnel, efficace. Comment avec le moins de code possible vous arrivez à donner une version fonctionnelle de l'application. 
+Celui qui arrive à faire fonctionner ce qui suit est recruté direct
+`config/initializers/backtrace_silencers.rb
+Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }`
 
-Ceci s'appelle le MVP, pour Minimum Viable Product. Voici un exemple de MVP pour un site que tu connais bien, celui de THP : les gens peuvent s'enregistrer sur le site, puis s'inscrire à une session. S'ils s'inscrivent, ils ont accès à tout le cursus qui est hébergé sur la plateforme. Nous nous occuperons à la main d'envoyer des emails pour annoncer le début de la session et nous ferons les groupes à la main. Spoiler : THP a commencé comme ceci ;)
+## 4. Notre MVP au bout de 5 jours
+
+- Landing page avec du <code>Bootstrap</code> minimal.
+- Une jolie navbar.
+- Creation du User (Pas de page Admin).
+- Liste des projets.
+- Liste des développeurs.
+- Un formulaire qui permet de proposer un projet.
+- Un formulaire qui permet de proposer ses compétences.
+ ... Le tout fonctionnel sur <code>Heroku</code>
 
 ## 5. La version que l'on présentera aux jury
-La deuxième semaine vous allez ajouter des fonctionnalités pour améliorer l'expérience utilisateurs de votre application. Quelles fonctionnalités tu aimerais bien ajouter ?
+
+- <code>Bootstrap</code> avancé.
+- Interface administrateur. [Un gros bisou à celui qui arrive à nous installer [Lien](https://getbootstrap.com/docs/5.0/examples/dashboard/)
+- Notion de tag: Rails, Python, Laravel, etc ...
+- Nuage de tags ????
+- Envoi de mails à la connexion.
+- Robot qui envoie une lettre d'info le lundi matin à 9h.
+- Image d'avatar pour le developpeur [Gravatar ?].
+- Connexion avec Google [<code>gem Devise</code>].
+- Des données de qualité en base pour la démo.
 
 ## 6. Notre mentor
-Qui est ton mentor ?
 
-## Fabriqué avec
-
-* [Windows 10 // WSL2 // Ubuntu] - Environnement
-* [VS Code] - Editeur de textes
-
-
+Obi-Wan Kenobi
 
 ## Auteur
 
