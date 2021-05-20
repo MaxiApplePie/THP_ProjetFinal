@@ -8,7 +8,7 @@ IZITEAM
 ## 1. Présentation
 
 L'objectif est de créer une plate-forme de mise en relation de porteurs de projets et de développeurs informatiques. 
-Le service est totalement gratuit parce que lorsqu'on a une bonne idée on n'a pas forcément le budget pour la développer.
+Le service est totalement gratuit parce que lorsqu'on a une bonne idée on n'a pas forcément le budget pour la développer 💪.
 
 ## 2. Parcours utilisateur
 
@@ -33,13 +33,13 @@ Il faudra pouvoir envoyer des mails automatiquement.
 <code>PostgreSQL</code>.
 Le design de la base est effectué en premier lors de la conception de l'application.
 On modélise sur dbdiagram.io/ puis on exporte le modèle en <code>PostgreSQL</code>.
-Ça nous permettra de comparer si on genere à l'identique
-Le modèle sera conçu en 3e forme normale .. Au minimum [Lien](https://fr.wikipedia.org/wiki/Forme_normale_(bases_de_donn%C3%A9es_relationnelles))]
+Ça nous permettra de comparer si on genere à l'identique.  
+Le modèle sera conçu en 3e forme normale .. Au minimum [3FN](https://fr.wikipedia.org/wiki/Forme_normale_(bases_de_donn%C3%A9es_relationnelles))]
 
 ### 3.2. Front
 
 On va faire du <code>bootstrap</code>, du <code>bootstrap</code> et du <code>bootstrap</code>. 
-D'ailleurs ce serait bien d'arriver à installer un template un peu sympa.
+D'ailleurs ce serait bien d'arriver à installer un template un peu sympa ❤️.
 Utilisation du flash-alert
 
 ### 3.3. Backend
@@ -55,13 +55,13 @@ Utilisation du flash-alert
 
 ### 3.4. La DreamTeam
 
-Des moussaillons motivés, compétents et sympas .. Mais enfin si on est arrivés jusqu'ici c'est que tout va bien.
+Des moussaillons motivés, compétents et sympas 😎.. Mais enfin si on est arrivés jusqu'ici c'est que tout va bien.
 
 #### Compétences
 
 - <code>GitHub</code> : Il faudra avoir une connaissance minimale des fonctionnement des branches pour pouvoir travailler en parallèle.
 - <code>Rails</code> : À ce niveau on est à peu près tous pareils .. Écrire un code de qualité qui suit les standards. Quand quelqu'un me fait une remarque sur mon code et qu'il me propose mieux je suis preneur.
-- <code>POO</code> : Tout en POO ... pas de SQL dans le code. Validation des modèles dès qu'on fait une modification
+- <code>POO</code> : Tout en POO ... ⚠️pas de SQL dans le code. Validation des modèles dès qu'on fait une modification
 - <code>Bundler</code> : Ça serait pas mal de maîtriser Bundler pour éviter les écarts de configuration entre nous.
 - <code>Heroku</code> : Une bonne compréhension du dashboard et du push.
 - <code>Bootstrap</code> : Là aussi ce serait bien d'avoir une certaine maîtrise de <code>bootstrap</code> et d'aller un peu loin dans son utilisation.
@@ -69,18 +69,18 @@ Des moussaillons motivés, compétents et sympas .. Mais enfin si on est arrivé
 - <code>Discord</code> : Vocal ouvert en continu.
 - <code>Rspec</code> : Et oui on va faire des tests ... Même sur la partie objet.
 
-Perso, ~~je peux boire trois pintes de bière sans trop de difficulté~~ j'ai pas eu de difficultés particulières avec <code>Heroku</code> et <code>GitHub</code>. Le code que j'écris en ruby me fait penser à du caca donc je ne ferai pas office de référent technique. Par contre je connais très bien les bases de données et le design de DB. <code>Bootstrap</code> me plaît bien. Et je peux m'occuper des tests sous Rspec. 
+Perso, ~~je peux boire trois pintes de bière sans trop de difficulté~~ j'ai pas eu de difficultés particulières avec <code>Heroku</code> et <code>GitHub</code>. Le code que j'écris en <code>ruby</code> me fait penser à du 💩 donc je ne ferai pas office de référent technique. Par contre je connais très bien les bases de données et le design de DB. <code>Bootstrap</code> me plaît bien. Et je peux m'occuper des tests sous <code>Rspec</code>. 
 
 - Un volontaire pour gerer le Trello.
 - Un volontaire pour garantir la qualité du code de l'équipe.
 - Un/deux volontaire(s) pour creuser <code>Bootstrap</code>.
 - Un volontaire pour nous créer des données cohérente avec <code>Faker</code>.
-- Il faudrait quelqu'un qui s'intéresse à <code>Bundler</code> mais là je crois que c'est difficile à trouver
+- Il faudrait quelqu'un qui s'intéresse à <code>Bundler</code> mais là je crois que c'est difficile à trouver  
  **... Tout ça en mode détendu ... On ne va pas révolutionner internet.**
 
 Celui qui arrive à faire fonctionner ce qui suit est recruté direct
-`config/initializers/backtrace_silencers.rb
-Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }`
+```config/initializers/backtrace_silencers.rb
+Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }```
 
 ## 4. Notre MVP au bout de 5 jours
 
@@ -91,12 +91,13 @@ Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }`
 - Liste des développeurs.
 - Un formulaire qui permet de proposer un projet.
 - Un formulaire qui permet de proposer ses compétences.
+- CRUD et REST of course.
  ... Le tout fonctionnel sur <code>Heroku</code>
 
 ## 5. La version que l'on présentera aux jury
 
 - <code>Bootstrap</code> avancé.
-- Interface administrateur. [Un gros bisou à celui qui arrive à nous installer [Lien](https://getbootstrap.com/docs/5.0/examples/dashboard/)
+- Interface administrateur. [Un gros 😘 à celui qui arrive à nous installer ce joli [Dashboard](https://getbootstrap.com/docs/5.0/examples/dashboard/)]
 - Notion de tag: Rails, Python, Laravel, etc ...
 - Nuage de tags ????
 - Envoi de mails à la connexion.
@@ -107,7 +108,7 @@ Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }`
 
 ## 6. Notre mentor
 
-Obi-Wan Kenobi
+Obi-Wan Kenobi.
 
 ## Auteur
 
