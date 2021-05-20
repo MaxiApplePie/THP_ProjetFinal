@@ -79,8 +79,8 @@ Perso, ~~je peux boire trois pintes de bière sans trop de difficulté~~ j'ai pa
  **... Tout ça en mode détendu ... On ne va pas révolutionner internet.**
 
 Celui qui arrive à faire fonctionner ce qui suit est recruté direct
-```config/initializers/backtrace_silencers.rb
-Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }```
+`config/initializers/backtrace_silencers.rb  
+Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }`
 
 ## 4. Notre MVP au bout de 5 jours
 
