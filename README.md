@@ -90,7 +90,6 @@ Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }`
 - Liste des projets.
 - Liste des développeurs.
 - Un formulaire qui permet de proposer un projet.
-- Un formulaire qui permet de proposer ses compétences.
 - CRUD et REST of course.  
  ... Le tout fonctionnel sur <code>Heroku</code>
 
@@ -98,6 +97,7 @@ Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }`
 
 - <code>Bootstrap</code> avancé.
 - Interface administrateur. [Un gros 😘 à celui qui arrive à nous installer ce joli [Dashboard](https://getbootstrap.com/docs/5.0/examples/dashboard/)]
+- Un formulaire qui permet de proposer ses compétences.
 - Notion de tag: Rails, Python, Laravel, etc ...
 - Nuage de tags ????
 - Envoi de mails à la connexion.
@@ -108,7 +108,7 @@ Rails.backtrace_cleaner.add_silencer { |line| line =~ /lib/ }`
 
 ## 6. Notre mentor
 
-Obi-Wan Kenobi.
+Marie Dechaux
 
 ## Auteur
 
